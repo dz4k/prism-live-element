@@ -19,10 +19,6 @@ export default class PrismLiveElement extends HTMLElement {
         this.shadowRoot.querySelectorAll('textarea, pre').forEach(
             el => new Prism.Live(el))
     }
-    
-    connectedCallback() {
-        Prism.Live
-    }
 }
 
 customElements.define('prism-live', PrismLiveElement)
