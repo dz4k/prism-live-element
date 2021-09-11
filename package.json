@@ -1,0 +1,16 @@
+{
+  "name": "prism-live-element",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deniz Akşimşek",
+  "license": "MIT",
+  "dependencies": {
+    "blissfuljs": "^1.0.6",
+    "git": "file:github.com/PrismJS/live",
+    "prismjs": "^1.24.1"
+  }
+}
